@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Job Application Form</h1>
+        <form action="#" method="post">
+            <div class="subContainer">
+                <div class="sub1">
+                    <label for="name">First Name</label>
+                    <input type="text" id="name" name="name"  placeholder="Enter first name" required>
+                </div>
+
+                <div class="sub2">
+                    <label for="name">Lastname</label>
+                    <input type="text" id="name" name="name" placeholder="Enter last name" required>
+                </div>
+
+            </div>
+
+            <div class="subContainer">
+                
+                <div class="sub3">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter Email" required>
+                </div>
+    
+                <div class="sub4">
+                    <label for="Job Role">Job Role</label>
+                    <select name="Job" id="Role">   
+                        <option value="selection">Select Job role</option>
+                        <option value="QA">QA</option>
+                        <option value="saab">FullStack</option>
+                        <option value="opel">IT Support</option>
+                        <option value="audi">HR</option>
+                    </select>
+                </div>
+            </div>
+
+            <label for="Address">Address</label>
+            <textarea name="Address" id="Address" cols="30" rows="10" placeholder="Enter Address"></textarea>
+            
+            <div class="subContainer">
+                <div class="sub5">
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city" placeholder="Enter City" required>
+                </div>
+                <div class="sub6">
+                    <label for="pincode">Pincode</label>
+                    <input type="number" id="pincode" name="city" placeholder="Enter Pincode" required>
+                </div>
+            </div>
+
+            <div class="subContainer">
+                <div class="sub5">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="sub6">
+                    <label for="resume">Upload Resume</label>
+                    <input type="file" id="resume" name="resume" required>
+                </div>
+            </div>
+
+            <div class="button">
+                <button type="submit">Apply Now</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
